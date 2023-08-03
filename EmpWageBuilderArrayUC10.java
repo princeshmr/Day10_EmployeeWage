@@ -9,7 +9,7 @@ public class EmpWageBuilderArrayUC10 {
 	private CompanyEmpWage[] companyEmpWageArray;
 	
 	public EmpWageBuilderArrayUC10() {
-		companyEmpWageArray = new CompanyEmpWage[5];
+		companyEmpWageArray = new CompanyEmpWage[4];  //my array is fixed 
 	}
 	
 	private void addCompanyEmpWage(String company,int empRatePerHour,int numOfWorkingDays,
